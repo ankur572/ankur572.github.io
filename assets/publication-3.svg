@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 236 164" role="img" aria-label="Abstract hydroclimate extremes visualization">
+<rect width="236" height="164" fill="#f4f6f4"/>
+<path d="M0 127 C28 110,44 116,69 95 C94 74,105 91,127 65 C149 39,167 57,186 38 C203 22,218 27,236 16 L236 164 L0 164 Z" fill="#ead06a" opacity=".85"/>
+<path d="M0 139 C30 123,49 132,75 110 C101 89,117 102,139 79 C159 58,178 70,196 52 C212 37,225 42,236 34 L236 164 L0 164 Z" fill="#ca783f" opacity=".72"/>
+<path d="M0 151 C38 143,56 147,85 128 C113 109,130 118,151 99 C173 80,190 93,208 76 C220 65,229 66,236 61 L236 164 L0 164 Z" fill="#7f3630" opacity=".76"/>
+<path d="M11 34 H225" stroke="#9ea9a3" stroke-width="2" stroke-dasharray="5 5"/>
+<path d="M23 36v95M64 36v81M105 36v61M146 36v47M187 36v31" stroke="#4e5c58" stroke-width="4" opacity=".7"/>
+</svg>

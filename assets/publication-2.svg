@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 236 164" role="img" aria-label="Abstract regional climate modeling visualization">
+<rect width="236" height="164" fill="#f4f6f4"/>
+<g stroke="#c9d1cc" stroke-width="1"><path d="M0 33h236M0 66h236M0 99h236M0 132h236"/><path d="M39 0v164M78 0v164M117 0v164M156 0v164M195 0v164"/></g>
+<path d="M8 116 C35 102,52 70,79 78 C111 89,121 43,154 55 C180 64,190 29,228 34" fill="none" stroke="#9c4936" stroke-width="5"/>
+<path d="M8 132 C32 125,61 106,83 111 C110 117,131 78,160 89 C188 99,204 70,228 75" fill="none" stroke="#cf8a45" stroke-width="3" opacity=".9"/>
+<circle cx="79" cy="78" r="5" fill="#7b342e"/><circle cx="154" cy="55" r="5" fill="#7b342e"/>
+</svg>

@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 236 164" role="img" aria-label="Abstract precipitation variability visualization">
+<rect width="236" height="164" fill="#f4f6f4"/>
+<g opacity=".95">
+<rect x="0" y="0" width="47" height="41" fill="#f2d56b"/><rect x="47" y="0" width="47" height="41" fill="#eab957"/><rect x="94" y="0" width="47" height="41" fill="#d88e44"/><rect x="141" y="0" width="47" height="41" fill="#c66b3e"/><rect x="188" y="0" width="48" height="41" fill="#a84734"/>
+<rect x="0" y="41" width="47" height="41" fill="#e9bd60"/><rect x="47" y="41" width="47" height="41" fill="#d9994d"/><rect x="94" y="41" width="47" height="41" fill="#be653d"/><rect x="141" y="41" width="47" height="41" fill="#8f4034"/><rect x="188" y="41" width="48" height="41" fill="#6e3130"/>
+<rect x="0" y="82" width="47" height="41" fill="#d9a24d"/><rect x="47" y="82" width="47" height="41" fill="#bd7041"/><rect x="94" y="82" width="47" height="41" fill="#9a4736"/><rect x="141" y="82" width="47" height="41" fill="#7f3531"/><rect x="188" y="82" width="48" height="41" fill="#5f2930"/>
+<rect x="0" y="123" width="47" height="41" fill="#c47a42"/><rect x="47" y="123" width="47" height="41" fill="#a34f38"/><rect x="94" y="123" width="47" height="41" fill="#80362f"/><rect x="141" y="123" width="47" height="41" fill="#6b2d30"/><rect x="188" y="123" width="48" height="41" fill="#54242d"/>
+</g>
+<path d="M-5 114 C42 86,74 100,103 71 S166 46,241 31" fill="none" stroke="#fff" stroke-width="4" opacity=".85"/>
+</svg>
