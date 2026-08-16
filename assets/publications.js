@@ -49,8 +49,16 @@
   function render(){
     const active = selectedTypes();
     const filtered = records
+      .filter(row => String(row.Display || "").trim().toLowerCase() === "yes")
       .filter(row => active.has(String(row.Type || "").trim()))
-      .sort((a,b) => Number(b.Year || 0) - Number(a.Year || 0) || Number(a.__order) - Number(b.__order));
+      .sort((a,b) => {
+        const ay = String(a.Year || "").trim();
+        const by = String(b.Year || "").trim();
+        const as = ay.toLowerCase() === "submitted";
+        const bs = by.toLowerCase() === "submitted";
+        if (as !== bs) return as ? -1 : 1;
+        return (Number(by) || 0) - (Number(ay) || 0) || Number(a.__order) - Number(b.__order);
+      });
 
     count.textContent = `${filtered.length} ${filtered.length === 1 ? "item" : "items"}`;
 
@@ -79,7 +87,7 @@
       return `
         <article class="publication-flat-row${dividerClass}" style="--delay:${delay}ms">
           <div class="publication-flat-year">${showYear ? escapeHTML(year) : ""}</div>
-          <div class="publication-type">${escapeHTML(row.Type)}</div>
+          <div class="publication-type">${escapeHTML(row.Type_str || row.Type)}</div>
           <div class="publication-copy">
             <h2 class="publication-title">${escapeHTML(row.Title)}</h2>
             <div class="publication-authors">${escapeHTML(row.Authors)}</div>
