@@ -3,11 +3,11 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="description" content="Ankur Dixit — hydroclimate scientist studying climate variability, the water cycle, and hydroclimate extremes.">
+<meta name="description" content="Ankur Dixit — research themes in orographic processes, land–atmosphere interaction, dynamical downscaling, climate variability and change, and climate extremes.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&family=Source+Sans+3:wght@400;500;600&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="assets/style.css">
+<link rel="stylesheet" href="assets/style.css?v=23">
 <title>Research | Ankur Dixit</title>
 </head>
 <body data-page="research">
@@ -17,19 +17,200 @@
 <a href="research.html">Research</a>
 <a href="publications.html">Publications</a>
 <a href="projects.html">Projects</a>
-<a href="about.html">About</a>
 <a href="cv.html">CV</a>
+<a href="media.html">Media</a>
+<a href="data.html">Data</a>
+<a href="nexus.html">Nexus</a>
 </div>
 </nav></div></header>
-<main class="page"><div class="container">
-  <div class="page-head"><div class="kicker">Research</div><h1>Research Themes</h1><p class="intro">My work sits at the intersection of climate dynamics and hydrology, with an emphasis on understanding variability and extremes in the water cycle using observations, reanalysis, and climate-model simulations.</p></div>
-  <div class="project-list">
-    <article class="project"><div><div class="project-tag">Theme 01</div><h3>Hydroclimate Variability</h3></div><p>Regional and large-scale variability in precipitation, terrestrial moisture, runoff, and water availability across daily to interannual timescales.</p></article>
-    <article class="project"><div><div class="project-tag">Theme 02</div><h3>Droughts, Floods & Precipitation Extremes</h3></div><p>Physical mechanisms controlling the development, persistence, spatial structure, and predictability of high-impact hydroclimate events.</p></article>
-    <article class="project"><div><div class="project-tag">Theme 03</div><h3>Climate Dynamics & Moisture Transport</h3></div><p>Connections between circulation anomalies, atmospheric moisture transport, land–atmosphere interactions, and regional hydroclimate conditions.</p></article>
-    <article class="project"><div><div class="project-tag">Theme 04</div><h3>Hydroclimate Data Science</h3></div><p>Reproducible analysis of large gridded geophysical datasets using Python, xarray, statistical diagnostics, and scientific-computing workflows.</p></article>
+
+<main class="page research-showcase-page">
+  <div class="container">
+    <div class="page-head research-page-head">
+      <h1>Research Themes</h1>
+      <nav class="research-theme-jump" aria-label="Research themes">
+        <a href="#orographic-processes-land-atmosphere"><span>01</span><strong>Orographic Processes &amp; Land–Atmosphere Interaction</strong></a>
+        <a href="#dynamical-downscaling"><span>02</span><strong>Dynamical Downscaling</strong></a>
+        <a href="#climate-variability-change"><span>03</span><strong>Climate Variability &amp; Change</strong></a>
+        <a href="#climate-extremes"><span>04</span><strong>Climate Extremes</strong></a>
+      </nav>
+    </div>
   </div>
-</div></main>
-<footer><div class="container footer-inner"><span>Hydroclimate science · water cycle · climate extremes</span><span>© 2026</span></div></footer>
+
+  <section class="research-showcase-theme" id="orographic-processes-land-atmosphere">
+    <div class="container">
+      <header class="research-theme-head">
+        <div class="research-theme-index">01</div>
+        <div class="research-theme-title">
+          <h2>Orographic Processes and Land–Atmosphere Interaction</h2>
+          <p>How important are orographic processes for accurately simulating regional climate-change signals, and how do land–atmosphere interactions shape their impacts?</p>
+        </div>
+      </header>
+
+      <div class="research-theme-layout">
+        <div class="research-theme-copy">
+          <p class="research-theme-lead">Orographic updrafts and land–atmosphere interactions can modify large-scale circulation differently across model resolutions, leading to distinct long-term change signals.</p>
+          <p>I use dynamical downscaling to resolve orographic updrafts across a range of model resolutions, from about 100 to 3 km. This allows me to examine how the representation of terrain-driven vertical motion changes with resolution and how those differences affect the simulated climate response. A key finding of this work is that the long-term change in snowpack is closely tied to the signal of change in updraft strength, with different model resolutions producing substantially different snowpack responses.</p>
+          <p>Land–atmosphere interaction is also critical, as surface temperature and moisture fluxes, when transported into the upper levels through updrafts, interact with large-scale systems and can modify them, making the atmosphere more stable or unstable.</p>
+        </div>
+
+        <div class="research-example-grid">
+          <article class="research-example-card">
+            <a class="research-example-figure lightbox-trigger" href="research_11.png">
+              <img src="research_11.png" alt="Research figure related to orographic processes and model resolution" loading="lazy">
+              <span class="research-figure-action">View figure ↗</span>
+            </a>
+            <div class="research-example-body">
+              <div class="research-example-type">Example · Orographic response</div>
+              <h3>Updraft strength across model resolutions</h3>
+              <p>Comparing resolutions helps reveal how terrain-driven vertical motion changes and how that change is connected to the long-term snowpack response.</p>
+              <!--div class="research-example-meta"><span>100–3 km</span><span>Updrafts</span><span>Snowpack</span></div-->
+            </div>
+          </article>
+
+          <article class="research-example-card">
+            <a class="research-example-figure lightbox-trigger" href="research_12.png">
+              <img src="research_12.png" alt="Research figure related to land-atmosphere interaction and regional climate" loading="lazy">
+              <span class="research-figure-action">View figure ↗</span>
+            </a>
+            <div class="research-example-body">
+              <div class="research-example-type">Example · Land–atmosphere pathway</div>
+              <h3>Connecting surface fluxes to large-scale circulation</h3>
+              <p>Future simulations for the Beas basin demonstrate that changes in glacier extent and other land-surface conditions must be represented to realistically capture land–atmosphere interactions and their influence on mountain hydroclimate.</p>
+              <!--div class="research-example-meta"><span>Surface fluxes</span><span>Stability</span><span>Circulation</span></div-->
+            </div>
+          </article>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="research-showcase-theme research-showcase-alt" id="dynamical-downscaling">
+    <div class="container">
+      <header class="research-theme-head">
+        <div class="research-theme-index">02</div>
+        <div class="research-theme-title">
+          <h2>Dynamical Downscaling</h2>
+          <p>How does dynamical downscaling help us better understand the climate-change signal?</p>
+        </div>
+      </header>
+
+      <div class="research-theme-layout">
+        <div class="research-theme-copy">
+          <p class="research-theme-lead">Resolving regional processes that are poorly represented in global climate models.</p>
+          <p>I use regional climate models and dynamical downscaling to understand how processes that are poorly resolved in global models influence regional climate signals. I am also interested in understanding how regional climate models can add value when employed with appropriate boundary conditions, bias correction, and parameterization schemes.</p>
+          <p>My work in high-mountain regions began during my Ph.D. with hydroclimate modeling of Himalayan basins and now extends to the Rocky Mountains. These regions provide an ideal setting for studying complex terrain, snow processes, and fine-scale atmospheric variability.</p>
+        </div>
+
+        <div class="research-example-grid">
+          <article class="research-example-card">
+            <a class="research-example-figure lightbox-trigger" href="research_21.png">
+              <img src="research_21.png" alt="Research figure illustrating dynamical downscaling diagnostics" loading="lazy">
+              <span class="research-figure-action">View figure ↗</span>
+            </a>
+            <div class="research-example-body">
+              <div class="research-example-type">Example · Downscaling diagnostics</div>
+              <h3>Where does regional modeling add value?</h3>
+              <p>Higher-resolution simulations improve both the magnitude of snow accumulation and the spatial pattern of SWE trends, with the largest gains in high-elevation regions.</p>
+              <!--div class="research-example-meta"><span>RCM</span><span>Downscaling</span><span>Added value</span></div-->
+            </div>
+          </article>
+
+          <article class="research-example-card">
+            <a class="research-example-figure lightbox-trigger" href="research_22.png">
+              <img src="research_22.png" alt="Research figure related to high-mountain hydroclimate modeling" loading="lazy">
+              <span class="research-figure-action">View figure ↗</span>
+            </a>
+            <div class="research-example-body">
+              <div class="research-example-type">Example · High-mountain hydroclimate</div>
+              <h3>Snowfall in the Himalayas</h3>
+              <p>Dynamic downscaling enables more reliable estimates of elevation-dependent warming and snowfall by better resolving topographic and elevation gradients.</p>
+              <!--div class="research-example-meta"><span>Himalayas</span><span>Rockies</span><span>Snow</span></div-->
+            </div>
+          </article>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="research-showcase-theme" id="climate-variability-change">
+    <div class="container">
+      <header class="research-theme-head">
+        <div class="research-theme-index">03</div>
+        <div class="research-theme-title">
+          <h2>Climate Variability and Change</h2>
+          <p>How do climate-change signals emerge from a background of substantial natural variability?</p>
+        </div>
+      </header>
+
+      <div class="research-theme-layout">
+        <div class="research-theme-copy">
+          <p class="research-theme-lead">Separating externally forced change from the variability generated within the climate system.</p>
+          <p>I study how externally forced climate change and internally generated variability shape regional hydroclimate, with a particular emphasis on snow water equivalent, mountain water resources, precipitation, and related water-cycle processes.</p>
+          <p>A recurring question in this work is how robust climate-change signals emerge from substantial natural variability. I combine climate-model ensembles, observations, reanalysis, and hydrological information to separate these influences and assess their implications for snowpack evolution and regional change.</p>
+        </div>
+
+        <div class="research-example-grid">
+          <article class="research-example-card research-example-wide">
+            <a class="research-example-figure lightbox-trigger" href="research_31.png">
+              <img src="research_31.png" alt="Research figure decomposing forced climate change and internal variability" loading="lazy">
+              <span class="research-figure-action">View figure ↗</span>
+            </a>
+            <div class="research-example-body">
+              <div class="research-example-type">Example · Downscaled internal variability</div>
+              <h3>Dynamic downscaling and internal variability</h3>
+              <p>Dynamic downscaling reveals how internal variability is expressed differently across resolutions, with short-term trends showing substantial changes in magnitude and even sign.</p>
+              <!--div class="research-example-meta"><span>Ensembles</span><span>Detection</span><span>Hydroclimate</span></div-->
+            </div>
+          </article>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="research-showcase-theme research-showcase-alt" id="climate-extremes">
+    <div class="container">
+      <header class="research-theme-head">
+        <div class="research-theme-index">04</div>
+        <div class="research-theme-title">
+          <h2>Climate Extremes</h2>
+          <p>How do circulation, land–atmosphere feedbacks, land-cover change, and climate change shape high-impact events?</p>
+        </div>
+      </header>
+
+      <div class="research-theme-layout">
+        <div class="research-theme-copy">
+          <p class="research-theme-lead">Understanding the causality of extreme events and their impacts in a counterfactual world.</p>
+          <p>My research on climate extremes focuses on the physical mechanisms that shape individual high-impact events and their evolution. I am particularly interested in heatwaves and in disentangling the roles of externally forced change and internal climate variability.</p>
+          <p>I also study how high-intensity floods could have manifested during different time periods, with less or more human-driven land-cover change.</p>
+        </div>
+
+        <div class="research-example-grid">
+          <article class="research-example-card research-example-wide">
+            <a class="research-example-figure lightbox-trigger" href="research_41.png">
+              <img src="research_41.png" alt="Research figure examining climate extremes and their physical drivers" loading="lazy">
+              <span class="research-figure-action">View figure ↗</span>
+            </a>
+            <div class="research-example-body">
+              <div class="research-example-type">Example · High-impact events</div>
+              <h3>Tracing the physical causes of extremes</h3>
+              <p>Changes in runoff during the 2018 Kerala flood under different LULC conditions, highlighting how land-cover changes influence the magnitude and spatial pattern of runoff.</p>
+              <!--div class="research-example-meta"><span>Heatwaves</span><span>Floods</span><span>Counterfactual</span></div-->
+            </div>
+          </article>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<div class="image-lightbox" id="image-lightbox" aria-hidden="true" role="dialog" aria-modal="true" aria-label="Expanded research figure">
+  <button class="image-lightbox-close" type="button" aria-label="Close image">×</button>
+  <img class="image-lightbox-img" alt="Expanded research figure">
+</div>
+
+<footer><div class="container footer-inner"><span>उठो, जागो और तब तक मत रुको जब तक लक्ष्य ना प्राप्त हो जाए — स्वामी विवेकानंद</span><span>© 2026</span></div></footer>
 <script src="assets/warming.js"></script>
-</body></html>
+<script src="assets/lightbox.js"></script>
+</body>
+</html>

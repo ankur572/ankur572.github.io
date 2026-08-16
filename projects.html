@@ -3,11 +3,11 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="description" content="Ankur Dixit — hydroclimate scientist studying climate variability, the water cycle, and hydroclimate extremes.">
+<meta name="description" content="Selected research projects by Ankur Dixit in regional climate modeling, mountain hydroclimate, land-atmosphere interaction, and climate extremes.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&family=Source+Sans+3:wght@400;500;600&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="assets/style.css">
+<link rel="stylesheet" href="assets/style.css?v=23">
 <title>Projects | Ankur Dixit</title>
 </head>
 <body data-page="projects">
@@ -17,18 +17,90 @@
 <a href="research.html">Research</a>
 <a href="publications.html">Publications</a>
 <a href="projects.html">Projects</a>
-<a href="about.html">About</a>
 <a href="cv.html">CV</a>
+<a href="media.html">Media</a>
+<a href="data.html">Data</a>
+<a href="nexus.html">Nexus</a>
 </div>
 </nav></div></header>
-<main class="page"><div class="container">
-  <div class="page-head"><div class="kicker">Projects</div><h1>Current & Selected Projects</h1><p class="intro">A place for ongoing research programs, collaborative projects, datasets, and analytical tools. Replace the sample descriptions with your actual work.</p></div>
-  <div class="project-list">
-    <article class="project"><div><div class="project-tag">Hydroclimate</div><h3>Regional Hydroclimate Anomaly Analysis</h3></div><p>Analysis of daily hydroclimate anomalies in multidimensional gridded datasets, including spatial aggregation, event diagnostics, and temporal variability.</p></article>
-    <article class="project"><div><div class="project-tag">Extremes</div><h3>Evolution of Hydroclimate Extremes</h3></div><p>Characterization of anomalous precipitation, drought, and water-availability periods and assessment of their development, persistence, and regional impacts.</p></article>
-    <article class="project"><div><div class="project-tag">Methods</div><h3>Large Geophysical Dataset Processing</h3></div><p>Efficient, reproducible workflows for climate and hydrologic datasets, climatologies, seasonal diagnostics, and regional statistics.</p></article>
+
+<main class="page projects-page">
+<div class="container">
+  <div class="page-head projects-head">
+    <h1>Projects</h1>
   </div>
-</div></main>
-<footer><div class="container footer-inner"><span>Hydroclimate science · water cycle · climate extremes</span><span>© 2026</span></div></footer>
+
+  <nav class="project-index" aria-label="Project navigation">
+    <a href="#snowpack-resolution"><span>01</span><strong>Mountain Snowpack &amp; Model Resolution</strong></a>
+    <a href="#india-heatwave"><span>02</span><strong>2024 India Heatwave</strong></a>
+    <a href="#wrf-hydro"><span>03</span><strong>WRF-Hydro Calibration</strong></a>
+    <a href="#beas-hydroclimate"><span>04</span><strong>Beas Basin Hydroclimate</strong></a>
+    <a href="#kerala-flood"><span>05</span><strong>Kerala Megaflood &amp; Land Cover</strong></a>
+  </nav>
+
+  <section class="project-feature" id="snowpack-resolution">
+    <div class="project-number">01</div>
+    <div class="project-copy">
+      <div class="project-status">Current research · Cornell University</div>
+      <h2>Mountain Snowpack &amp; Model Resolution</h2>
+      <p class="project-question">How does model resolution change the representation of orographic processes and the long-term snowpack change signal?</p>
+      <p>I use ERA5, CESM2 Large Ensemble simulations, and WRF dynamical downscaling to examine how model resolution alters the representation of orographic processes and historical snowpack trends, and how internal variability and resolution together influence the timing and detectability of future snowpack change in the Upper Colorado River Basin.</p>
+    </div>
+    <figure class="project-figure"><a class="project-visual lightbox-trigger" href="project1.png"><img src="project1.png" alt="Research figure for the mountain snowpack and model-resolution project"><span>Click to enlarge</span></a><figcaption>Peak SWE trend over Upper Colorado River Basin</figcaption></figure>
+  </section>
+
+  <section class="project-feature project-feature-alt" id="india-heatwave">
+    <div class="project-number">02</div>
+    <div class="project-copy">
+      <div class="project-status">Current research · Climate extremes</div>
+      <h2>Causality of the 2024 North-Central India Heatwave</h2>
+      <p  class="project-question">How do circulation, external forcing, and land–atmosphere feedbacks interact to shape the evolution of an extreme heatwave?</p>
+      <p>This project examines the 2024 North-Central India heatwave by separating circulation-driven and residual temperature contributions and further distinguishing externally forced and internally generated components. It investigates how anomalous large-scale circulation initiated and sustained the event, while soil-moisture depletion and land–atmosphere feedbacks increasingly amplified surface heating as the heatwave evolved.</p>
+    </div>
+    <figure class="project-figure"><a class="project-visual lightbox-trigger" href="project2.png"><img src="project2.png" alt="Research figure related to climate extremes"><span>Click to enlarge</span></a><figcaption>Heatwave over North-Central India (NCI)</figcaption></figure>
+  </section>
+
+  <section class="project-feature" id="wrf-hydro">
+    <div class="project-number">03</div>
+    <div class="project-copy">
+      <div class="project-status">Published · Journal of Hydrometeorology · 2025</div>
+      <h2>Optimizing WRF-Hydro Calibration in a Himalayan Basin</h2>
+      <p class="project-question">How do precipitation forcing and parameter sensitivity influence hydrologic calibration in complex mountain terrain?</p>
+      <p>This work evaluates WRF-Hydro calibration in a Himalayan basin, with emphasis on precipitation influence and parameter sensitivity. The project develops a more process-aware approach to representing mountain hydrology under uncertain atmospheric forcing.</p>
+    </div>
+    <figure class="project-figure"><a class="project-visual lightbox-trigger" href="project3.jpg"><img src="project3.jpg" alt="Research figure for Himalayan hydrologic modeling"><span>Click to enlarge</span></a><figcaption>Parameter optimization of WRF-Hydro using different dimensional solution space</figcaption></figure>
+  </section>
+
+  <section class="project-feature project-feature-alt" id="beas-hydroclimate">
+    <div class="project-number">04</div>
+    <div class="project-copy">
+      <div class="project-status">Ph.D. research · IIT Delhi</div>
+      <h2>Coupled Glacier–Atmosphere–Hydrology Modeling of the Beas Basin</h2>
+      <p class="project-question">How do changes in climate forcing propagate through atmospheric, snow, glacier, and hydrological processes to reshape water availability in high-mountain basins?</p>
+      <p>My Ph.D. work used high-resolution dynamical downscaling coupled with glacier and hydrological modeling to investigate hydroclimate change in the Beas River basin. The work examined how different climate forcings alter precipitation, snow and glacier melt, and their relative contributions to river discharge across historical and future periods.</p>
+    </div>
+    <figure class="project-figure"><a class="project-visual lightbox-trigger" href="project4.png"><img src="project4.png" alt="Research figure related to high-resolution hydroclimate modeling"><span>Click to enlarge</span></a><figcaption>Beas river discharge for different periods under different climate forcing.</figcaption></figure>
+  </section>
+
+  <section class="project-feature" id="kerala-flood">
+    <div class="project-number">05</div>
+    <div class="project-copy">
+      <div class="project-status">Published · Climate Research · 2022</div>
+      <h2>Land-Cover Change and the 2018 Kerala Megaflood</h2>
+      <p class="project-question">How might the impacts of an extreme flood differ under alternative land-cover conditions?</p>
+      <p>This study uses the August 2018 Kerala megaflood as a counterfactual experiment to quantify how historical land-use and land-cover changes influenced flood characteristics. It examines changes in surface-water height, inundation, and flood persistence to isolate the contribution of landscape change to the magnitude and spatial extent of the event.</p>
+    </div>
+    <figure class="project-figure"><a class="project-visual lightbox-trigger" href="project5.png"><img src="project5.png" alt="Research figure illustrating decomposition of climate influences"><span>Click to enlarge</span></a><figcaption>Change in surface water height flux (in mm) for the August 2018 flood for LULC change corresponding to 1995−2018 for (a) maximum height, (b) mean height, and (c) total exceedance duration in hours.</figcaption></figure>
+  </section>
+</div>
+</main>
+
+<div class="image-lightbox" id="image-lightbox" aria-hidden="true" role="dialog" aria-modal="true" aria-label="Expanded project figure">
+  <button class="image-lightbox-close" type="button" aria-label="Close image">×</button>
+  <img class="image-lightbox-img" alt="Expanded project figure">
+</div>
+
+<footer><div class="container footer-inner"><span>उठो, जागो और तब तक मत रुको जब तक लक्ष्य ना प्राप्त हो जाए — स्वामी विवेकानंद</span><span>© 2026</span></div></footer>
 <script src="assets/warming.js"></script>
+<script src="assets/lightbox.js"></script>
 </body></html>
