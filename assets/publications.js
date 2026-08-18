@@ -63,7 +63,7 @@
     count.textContent = `${filtered.length} ${filtered.length === 1 ? "item" : "items"}`;
 
     if (!active.size){
-      results.innerHTML = `<div class="publication-empty"><strong>No category selected.</strong>Select one or more output types above to display the scholarly record.</div>`;
+      results.innerHTML = `<img src="empty.png" alt="" class="publication-empty-image">`;
       finishTransition();
       return;
     }
