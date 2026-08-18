@@ -47,11 +47,10 @@
   }
 
   function render(){
-    const showSubmitted = filters.find(x => x.value === "Submitted")?.checked;
-    const active = new Set([...selectedTypes()].filter(x => x !== "Submitted"));
+    const active = selectedTypes();
     const filtered = records
       .filter(row => String(row.Display || "").trim().toLowerCase() === "yes")
-      .filter(row => String(row.Year).trim().toLowerCase() !== "submitted" || showSubmitted)
+      .filter(row => active.has(String(row.Type || "").trim()))
       .sort((a,b) => {
         const ay = String(a.Year || "").trim();
         const by = String(b.Year || "").trim();
