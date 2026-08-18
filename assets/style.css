@@ -595,6 +595,13 @@ footer{padding:27px 0;border-top:1px solid var(--line);font-size:13px;color:var(
 }
 .publication-empty strong,.publication-error strong{display:block;color:var(--ink);font-family:"Libre Baskerville",Georgia,serif;font-size:16px;margin-bottom:7px}
 .publication-error code{font-size:12px;color:#52626b}
+.publication-empty-image{
+  display:block;
+  max-width:320px;
+  width:70%;
+  height:auto;
+  margin:35px auto;
+}
 .publication-scholar{margin-top:28px}
 
 @media(max-width:820px){
