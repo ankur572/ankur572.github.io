@@ -598,7 +598,7 @@ footer{padding:27px 0;border-top:1px solid var(--line);font-size:13px;color:var(
 .publication-empty-image{
   display:block;
   max-width:128px;
-  width:28%;
+  width:75%;
   height:auto;
   margin:35px auto;
 }
