@@ -90,7 +90,8 @@
           <div class="publication-type">${escapeHTML(row.Type_str || row.Type)}</div>
           <div class="publication-copy">
             <h2 class="publication-title">${escapeHTML(row.Title)}</h2>
-            <div class="publication-authors">${escapeHTML(row.Authors)}</div>
+            <div class="publication-authors">${escapeHTML(row.Authors).replace(
+                /Dixit,\s*A\./g, '<span class="my-name">Dixit, A.</span>')}</div>
             <div class="publication-venue">${venue ? `<em>${venue}</em>` : ""}${venue && details ? " · " : ""}${details}</div>
           </div>
           <div class="publication-action">${href ? `<a href="${escapeHTML(href)}" target="_blank" rel="noopener">Open</a>` : ""}</div>
